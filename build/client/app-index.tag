@@ -21,7 +21,7 @@
   </section>
 
   <script>
-    const SERVER_HOST = (typeof process != 'undefined' && process && process.env && process.process.env.SERVER_HOST) || 'http://localhost:8091'
+    const SERVER_HOST = 'https://shortlee.herokuapp.com/' || 'http://localhost:8091'
     var self = this
 
     self.timesCalled = 0;
