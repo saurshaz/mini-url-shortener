@@ -12,21 +12,21 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 switch (process.env.NODE_ENV) {
   case 'prod':
-    _habitat2.default.load(_path2.default.resolve(__dirname, '../../../src/config/.env.prod'));
+    _habitat2.default.load(_path2.default.resolve(__dirname, '../../config/.env.prod'));
     break;
   case 'test':
-    _habitat2.default.load(_path2.default.resolve(__dirname, '../../../src/config/.env.test'));
+    _habitat2.default.load(_path2.default.resolve(__dirname, '../../config/.env.test'));
     break;
   case 'development':
     // @review :: sample.env is not supposed to be used anywhere
-    _habitat2.default.load(_path2.default.resolve(__dirname, '../../../src/config/.env'));
+    _habitat2.default.load(_path2.default.resolve(__dirname, '../../config/.env'));
     break;
   case 'stage':
-    _habitat2.default.load(_path2.default.resolve(__dirname, '../../../src/config/.env.stage'));
+    _habitat2.default.load(_path2.default.resolve(__dirname, '../../config/.env.stage'));
     break;
   default:
     // @review :: sample.env is not supposed to be used anywhere
-    _habitat2.default.load(_path2.default.resolve(__dirname, '../../../src/config/sample.env'));
+    _habitat2.default.load(_path2.default.resolve(__dirname, '../../config/sample.env'));
 }
 var env = new _habitat2.default();
 module.exports = env;
