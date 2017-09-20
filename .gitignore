@@ -8,5 +8,6 @@ src/server/public/scripts/app.*.js
 src/server/public/scripts/vendor.*.js
 src/server/webpack.assets.json
 src/server/config/.env
+build/
 .DS_Store
 *.log

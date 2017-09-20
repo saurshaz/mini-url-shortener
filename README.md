@@ -46,3 +46,7 @@
 - There should be an (simple) API to create short URLs
 
 https://www.getpostman.com/collections/7ac581ea61378bdf4f29
+
+
+- [ ] to fix the hardcoding done in client side for the URL for ajax communication
+- [ ] to fix the path for `environment files` (heroku deployment)
