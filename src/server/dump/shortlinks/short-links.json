@@ -1,0 +1,20 @@
+{ 
+    "_id" : ObjectId("59c2af5abe293e45a7261358"), 
+    "original_link" : "https://trello.com/c/Mahfjf3t/237-implement-ssh-editor-poc", 
+    "short_link" : "trtt", 
+    "is_active" : true, 
+    "created_by" : "saurshaz@gmail.com", 
+    "date_created" : ISODate("2017-09-20T18:11:38.289+0000"), 
+    "last_modified" : ISODate("2017-09-20T18:11:38.289+0000"), 
+    "count" : 4.0
+}
+{ 
+    "_id" : ObjectId("59c2b12a82c33f4646b78ad4"), 
+    "original_link" : "https://inbox.google.com/u/0/?pli=1", 
+    "short_link" : "ggg", 
+    "is_active" : true, 
+    "created_by" : "saurshaz@gmail.com", 
+    "date_created" : ISODate("2017-09-20T18:19:22.987+0000"), 
+    "last_modified" : ISODate("2017-09-20T18:19:22.987+0000"), 
+    "count" : NumberInt(2)
+}

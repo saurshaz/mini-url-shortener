@@ -1,0 +1,12 @@
+/node_modules/
+node_modules/
+package-lock.json
+node_modules/
+package-lock.json
+src/server/dao/invoices.sqlite
+src/server/public/scripts/app.*.js
+src/server/public/scripts/vendor.*.js
+src/server/webpack.assets.json
+src/server/config/.env
+.DS_Store
+*.log
