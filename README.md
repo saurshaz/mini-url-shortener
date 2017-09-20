@@ -1,5 +1,5 @@
 ##################
-##    LT- API   ##
+##    SHORTLEE - API   ##
 ##################
 
 
@@ -7,13 +7,11 @@
 
 ```
 ## short-links
-- copy and rename `backend/config/sample.env` as `backend/config/.env`. adjust values
-- docker-compose up --build
+- copy and rename `src/server/config/sample.env` as `src/server/config/.env`. adjust values
 ```
 
 ##### What this starter has ?
 - `Node.JS` based backend (express server)
-- `Docker` and `docker-compose` to glue the setup up
 
 #### What is this ?
 - A URL shortener
@@ -26,13 +24,12 @@
 - `habitat` for env management
 - `express` framework
 - `mocha` based unit tests
-- `sequelize` based data access from `sqlite3`
+- `mongo` based data access from `mongoskin`
 
 ### How to get tests running
 
  - set up the environment variables properly in config folder
- - import the lt-test.sql dump from dump folder into mysql
- - npm run test
+ - setup the mongodum dump for mongo database `shortlinks`
 
 ### TODOs
 - The application should have a form field where a user can put a valid url (The validation should be done via a direct call of the provided URL and the HTTP code should be evaluated).
@@ -50,3 +47,4 @@ https://www.getpostman.com/collections/7ac581ea61378bdf4f29
 
 - [ ] to fix the hardcoding done in client side for the URL for ajax communication
 - [ ] to fix the path for `environment files` (heroku deployment)
+
